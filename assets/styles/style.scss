@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+}
+
+.little-header {
+    padding: 10px 0;
+    background-color: #233A94;
+    p{
+        color: white;
+        font-size: 10px;
+        span{
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
+
+header{
+
+    align-items: center;
+    a{
+        color: black;
+    }
+    .top{
+        border-bottom:1px solid gray ;
+        padding: 3px 0;
+        .left{
+            ul{
+                list-style: none;
+                display: flex;
+                li {
+                    margin: 0 8px;
+                    a {
+                        color: black;
+                        transition: .5s;
+                        &:hover{
+                            color: #233A94;
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            
+            padding: 0 3px;
+            span{
+                font-size: 14px;
+            }
+            .left {
+                border-right: 1px solid gray;
+            }
+          
+            i{
+                font-size: 16px;
+            }
+            .middle {
+                text-align: center;
+                a{
+                    color: blue;
+                    font-weight: bold;
+                    position:relative; 
+                    &::before{
+                        position: absolute;
+                        content: ' ';
+                        height: 2px;
+                        background-color: blue;
+                        width: 0;
+                        bottom: -3px;
+                    }
+                    &:hover{
+                        &::before{
+                            width: 100%;
+                        }
+                    }
+                }
+               
+            }
+            .right{
+                border-left: 1px solid gray;
+               .drop-down{
+                position: relative;
+                display: inline-block;
+                transition: 1s;
+                &:hover{
+                    .drop-downcontent{
+                        a{
+                            display: block;
+                        }
+                    }
+                }
+                }
+                .drop-downcontent{
+                    position:absolute;
+                    a{
+                        display: none;
+                        z-index: 1;
+                        background-color: white;
+                        padding: 15px 20px;
+                        
+                    }
+                }
+                
+                    a{
+                        margin: 0 8px;
+                    }
+               }
+            }
+        }
+        .bottom-new {
+            .hard-section{
+                span{
+                    margin: 0 10px;
+                }
+                position: relative;
+                #count{
+                    position: absolute;
+                    top: 20;
+                    left:20;
+                    transform: translate(-50%,-50%);
+                    
+                }
+            }
+            .input-src{
+                position: relative;
+                input{
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+                    background-color: whitesmoke;
+                    border: none;
+                }
+                i{
+                    position: absolute;
+                    right: 0;
+                    top: -10;
+                    padding: 15px 0px;
+                    transform: translate(-50%);
+                }
+            }
+            .modal-content-1{
+                .modal1{
+                    margin: 0 10px;
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                }
+            }
+        
+            .top-bottom {
+                .logo{
+                   font-size: 15px;
+                   color: gray;
+                }
+            }
+        
+    }
+    }
+

@@ -1,0 +1,173 @@
+a {
+  text-decoration: none;
+}
+
+.little-header {
+  padding: 10px 0;
+  background-color: #233A94;
+}
+
+.little-header p {
+  color: white;
+  font-size: 10px;
+}
+
+.little-header p span {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  color: black;
+}
+
+header .top {
+  border-bottom: 1px solid gray;
+  padding: 3px 0;
+}
+
+header .top .left ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .top .left ul li {
+  margin: 0 8px;
+}
+
+header .top .left ul li a {
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .top .left ul li a:hover {
+  color: #233A94;
+}
+
+header .top .right {
+  padding: 0 3px;
+}
+
+header .top .right span {
+  font-size: 14px;
+}
+
+header .top .right .left {
+  border-right: 1px solid gray;
+}
+
+header .top .right i {
+  font-size: 16px;
+}
+
+header .top .right .middle {
+  text-align: center;
+}
+
+header .top .right .middle a {
+  color: blue;
+  font-weight: bold;
+  position: relative;
+}
+
+header .top .right .middle a::before {
+  position: absolute;
+  content: ' ';
+  height: 2px;
+  background-color: blue;
+  width: 0;
+  bottom: -3px;
+}
+
+header .top .right .middle a:hover::before {
+  width: 100%;
+}
+
+header .top .right .right {
+  border-left: 1px solid gray;
+}
+
+header .top .right .right .drop-down {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .top .right .right .drop-down:hover .drop-downcontent a {
+  display: block;
+}
+
+header .top .right .right .drop-downcontent {
+  position: absolute;
+}
+
+header .top .right .right .drop-downcontent a {
+  display: none;
+  z-index: 1;
+  background-color: white;
+  padding: 15px 20px;
+}
+
+header .top .right .right a {
+  margin: 0 8px;
+}
+
+header .bottom-new .hard-section {
+  position: relative;
+}
+
+header .bottom-new .hard-section span {
+  margin: 0 10px;
+}
+
+header .bottom-new .hard-section #count {
+  position: absolute;
+  top: 20;
+  left: 20;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header .bottom-new .input-src {
+  position: relative;
+}
+
+header .bottom-new .input-src input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+header .bottom-new .input-src i {
+  position: absolute;
+  right: 0;
+  top: -10;
+  padding: 15px 0px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+header .bottom-new .modal-content-1 .modal1 {
+  margin: 0 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+header .bottom-new .top-bottom .logo {
+  font-size: 15px;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
